@@ -1,0 +1,134 @@
+*{
+    padding: 0%;
+    margin: auto;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color:#fcfcfc;
+}
+nav{
+    background: #212529;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+}
+label.logo{
+    color: azure;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    float: left;
+}
+nav ul {
+    display: inline;
+    /* float: right; */
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: azure;
+    font-size: 17px;
+    float: right;
+    text-transform: unset;
+    padding: 7px 13px;
+     border-radius: 3px;
+     text-decoration: none;
+}
+ul{
+    float:right;
+}
+.blackdark{
+    text-align: center;
+    background-color: rgba(235, 229, 229, 0.856);
+    background-size: 6cm 3cm;
+    color: rgb(10, 10, 10);
+    width: 65%;
+    height: 500px;
+    outline: none;
+    padding-top: 160px;
+    text-align: center;
+   
+    margin-top: 5%;
+ }
+.white h1{
+    font-size: 1cm;
+}
+.white p{
+    text-align:center;
+    text-indent: 50px;
+ vertical-align: baseline;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+button{
+    background-color:#0d6efd  !important;
+    color: white;
+    position: relative;
+    width: 5cm;
+    height: 1cm;
+    font-size: large;
+    border: #0d6efd;
+    margin-top: 4%;
+    border-radius: 8px;
+    box-sizing: content-box;
+    
+}
+.row{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-color:white;
+    border: white;
+}
+.col1{
+    width: 50%;
+    height: 100%;
+    padding-left: 5%;
+    padding-top: 0%; 
+    margin: 5%;
+    height: 60%;
+    background-color: rgba(235, 229, 229, 0.856);
+    align-items: center;
+    padding-left: 2.5cm;
+    padding-right: 2.5cm;
+}
+.bg{
+    color: #0d6efd;
+    font-size: 80px;
+    text-align: center;
+    display: centre;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    vertical-align: text-top;
+}
+.h1{
+    text-align: center;
+   display: inline;
+    font-size: 1.5cm;
+    padding-top: 2px;
+}
+.p{
+    text-align: center;
+    align-items: flex-end;
+    font-size: smaller;
+}
+footer{
+    position: absolute;
+    background:#212529;
+    width: 100%;
+    height: 3cm;
+    padding-top: 50px;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}    
